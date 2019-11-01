@@ -17,6 +17,6 @@ A Calculadora pode operar seguintes operações, utilizando virgula flutuante(ex
 5. "** (Potência)"
 
 Está em curso o desenvolvimento das seguntes funcionalidades,
-    - [x] Cálculo de Potência
-    - [ ] Cálculo de raiz Quadrada
-    - [ ] Cálculo de funções trignométricas
+- [x] Cálculo de Potência
+- [ ] Cálculo de raiz Quadrada
+- [ ] Cálculo de funções trignométricas
