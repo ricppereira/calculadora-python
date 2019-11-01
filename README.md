@@ -8,8 +8,8 @@ Calculadora desenvolvida em Python no contexto da Unidade curricular de Qualidad
 Trabalho realizado por **Ricardo Pereira** em 10/2019
 
 A Calculadora pode operar seguintes operações, utilizando virgula flutuante(ex:0.10):
-    1. +  (Soma)
-    2. -  (Subtração)
-    3. *  (Multiplicação)
-    4. /  (Divisão)
-    5. ** (Potencia)
+1. +  (Soma)
+2. -  (Subtração)
+3. *  (Multiplicação)
+4. /  (Divisão)
+5. ** (Potencia)
