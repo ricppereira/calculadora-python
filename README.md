@@ -12,4 +12,4 @@ A Calculadora pode operar seguintes operações, utilizando virgula flutuante(ex
 2. "-  (Subtração)"
 3. "*  (Multiplicação)"
 4. "/  (Divisão)"
-5. "** (Potencia)"
+5. "** (Potência)"
