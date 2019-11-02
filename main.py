@@ -20,10 +20,12 @@ print('\nq  (Para Terminar)')
 
 while expression != 'q':
     expression= input('\nInserir expressão: ')
-    print('= ', eval(expression))
-    if (re.match(r"^(\d{1,}(\.\d{1,})?(([-+/]|[*]{1,2})\d{1,}(\.\d{1,})?)+)+$",expression)):
-        print('= ', eval(expression))
-    elif expression == 'q':
-        print('Terminando... ')    
-    else:
-        print('Expressão inválida!')
+    try:
+        if (re.match(r"^(\d{1,}(\.\d{1,})?(([-+/]|[*]{1,2})\d{1,}(\.\d{1,})?)+)+$",expression)):
+            print('= ', eval(expression))
+        elif expression == 'q':
+            print('Terminando... ')    
+        else:
+            print('Expressão inválida!')
+    except:
+        print("Aconteceu qualquer situação anómala!")
